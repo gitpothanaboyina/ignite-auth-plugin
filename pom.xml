@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<groupId>com.techouts</groupId>
+	<artifactId>ignite-auth</artifactId>
+	<version>0.1</version>
+	<packaging>jar</packaging>
+	<modelVersion>4.0.0</modelVersion>
+
+	<name>ignite-auth</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<ignite.version>2.7.0</ignite.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.ignite</groupId>
+			<artifactId>ignite-core</artifactId>
+			<version>${ignite.version}</version>
+		</dependency>
+<!-- 		<dependency>
+			  <groupId>org.apache.ignite</groupId>
+			  <artifactId>ignite-log4j</artifactId>
+			  <version>${ignite.version}</version>
+		</dependency> -->
+	</dependencies>
+</project>
